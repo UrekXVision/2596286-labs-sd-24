@@ -14,7 +14,7 @@ header{
 
 footer{
     background-color: #333;
-    position: fixed;
+    margin-top: 50px;
     bottom: 0;
     width: 100%;
     color: white;
@@ -32,7 +32,7 @@ footer{
 body{
     min-height: 100vh;
     padding-top: 70px;
-    padding-bottom: 70px;
+    
 }
 
 ul{
@@ -44,10 +44,6 @@ ul{
 
 li{
     margin-left: 40px;
-}
-
-li:hover{
-
 }
 
 a{
@@ -85,4 +81,8 @@ figure{
 
 html{
     scroll-behavior: smooth;
+}
+
+p{
+    font-size: 0.8rem;
 }
