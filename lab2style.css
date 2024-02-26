@@ -31,7 +31,7 @@ footer{
 
 body{
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 50px;
     width: 100vw;
 }
 
@@ -52,6 +52,12 @@ a{
 }
 
 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first, aside{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,4 +91,24 @@ html{
 
 p{
     font-size: 0.8rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+#aboutus{
+    margin-bottom: 10px;
 }
